@@ -10,6 +10,8 @@ The png files are for data visualization All the rest csv files are the results 
 (1) categorical : gender, married(yes,no), self_employed(yes,no), credit_history(0.0 , 1.0) (2) ordinal : dependent(1,2,3,4), education(gradute,not graduate ), property(rural,urban,semiurban) (3) numeral : it can be count : applicant income , loan amount.
 
 
+![p](https://user-images.githubusercontent.com/82667439/165998351-96631f66-9eb7-48cb-b246-11afbbd89161.png)
+
 # Model Selection : logistic regression , decision tree and random forest
 StratifiedKFold to evaluate the models
 

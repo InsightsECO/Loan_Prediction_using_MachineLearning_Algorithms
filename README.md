@@ -11,7 +11,6 @@ The png files are for data visualization All the rest csv files are the results 
 
 
 
-![pn](https://user-images.githubusercontent.com/82667439/165998911-c168e77e-8b67-4349-921a-e6c62ea46793.png)
 
 # Model Selection : logistic regression , decision tree and random forest
 StratifiedKFold to evaluate the models

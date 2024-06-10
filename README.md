@@ -1,21 +1,46 @@
-# Abstract : This project is to predict if a loan will get approved or not
-A typial classification problem. A project I did for practicing data analytics skills and gaining better understanding of machine learning algorithms and concepts.
+# Loan Approval Prediction Project
 
-# Data Collection : Train_file_loan.csv and test_file_loan.csv are the data source files. (Semi-Clean Data available on Kaggle)
-The png files are for data visualization All the rest csv files are the results files
+## Abstract:
+This project aims to predict whether a loan application will be approved or not, addressing a typical classification problem. It serves as a practice exercise for honing data analytics skills and gaining a deeper understanding of machine learning algorithms and concepts.
 
-# Libriries used : pandas, numpy , seaborn and matplotlib (For EDA analysis and Visulization) / Sklearn, sklearn Metrics, StratifiedKFold (to evaluate the models)  
+## Data Collection:
+The project utilizes two main data source files: `train_file_loan.csv` and `test_file_loan.csv`, containing semi-clean data available on Kaggle. Additionally, several PNG files are included for data visualization purposes, along with various CSV files for storing the results.
 
-# Data types for visualization :
-(1) categorical : gender, married(yes,no), self_employed(yes,no), credit_history(0.0 , 1.0) (2) ordinal : dependent(1,2,3,4), education(gradute,not graduate ), property(rural,urban,semiurban) (3) numeral : it can be count : applicant income , loan amount.
+## Libraries Used:
+- Pandas
+- NumPy
+- Seaborn
+- Matplotlib (For Exploratory Data Analysis and Visualization)
+- Scikit-learn (Sklearn)
+- Scikit-learn Metrics
+- StratifiedKFold (For evaluating the models)
 
+## Data Types for Visualization:
+1. **Categorical:**
+   - Gender
+   - Married (Yes/No)
+   - Self-employed (Yes/No)
+   - Credit history (0.0, 1.0)
 
+2. **Ordinal:**
+   - Dependent (1, 2, 3, 4)
+   - Education (Graduate, Not Graduate)
+   - Property (Rural, Urban, Semiurban)
 
+3. **Numerical:**
+   - Applicant income
+   - Loan amount
 
-# Model Selection : logistic regression , decision tree and random forest
-StratifiedKFold to evaluate the models
+## Model Selection:
+The project employs the following machine learning models:
+- Logistic Regression
+- Decision Tree
+- Random Forest
 
-# Results: Random Forest has the highest accuracy 0.80
+Evaluation of the models is done using StratifiedKFold.
 
-# Reference : 
-Loan Prediction (based on project from Analytics Vidhya)
+## Results:
+Random Forest achieves the highest accuracy of 80% among the models evaluated.
+
+## Reference:
+This project is inspired by the Loan Prediction project available on Analytics Vidhya.
